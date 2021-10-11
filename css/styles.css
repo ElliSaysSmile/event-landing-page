@@ -96,7 +96,7 @@ button{
     font-size: 30px;
     color:#384855;
     font-weight: bold;
-    padding-left: 30px;
+    padding-left: 50px;
     
 }
 
@@ -110,7 +110,8 @@ button{
 
 .venue-image{
      display: flex;
-    justify-content: end;
-    align-items: end;
-    padding-bottom: 10px;
+    justify-content: start;
+    align-items: start;
+    padding-bottom: 50px;
+    padding-right: 50px;
 }
