@@ -1,3 +1,14 @@
+button{
+    border-radius: 3px;
+    border: none;
+    background-color: #384855;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
 .speakerCardWrapper{
     padding: 20px; 
 }
@@ -6,10 +17,13 @@
     padding: 60px;
     font-size: 14px;
     
+    
 }
 
 .speakerCard > *{
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+    color: #384855;
+    
 }
 
 .img-thumbnail{
@@ -22,9 +36,8 @@
     text-align: center;
     margin-left: 300px;
     margin-right: 300px;
-    font-size: 23px;
-    font-weight: bold;
-    color: grey;
+    font-size: 20px;
+    color:#8FA2B3;
 }
 
 .speaker{
@@ -33,19 +46,79 @@
     padding-top: 15px;
     margin-right: 180px;
     margin-left: 180px;
+    color:#3E4F5A;
 }
 
 .speaker-description{
-    color: grey;
-    font-weight: bold;
+    color:#8FA2B3;
+    text-align: left;
    
+    
+} 
+
+.speaker-header{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: open sans; 
+}
+
+.speaker-styling{
+    font-weight: bold;
+    font-size: 24px;
+    color:#3E4F5A;
+    font-family: open sans;
+}
+
+ 
+
+.ticket-description{
+    font-size: 30px;
+    font-weight:bold;
+    font-family: open sans;
+    color:#3E4F5A;
+    padding-top: 30px;
+
+}
+
+.ticket-benefits{
+    color: #8FA2B3;
+    font-size: 16px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.ticketButton{
+    Padding-bottom: 30px;
+}
+
+.map{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+
+}
+
+.venue-container{
+    font-family: open sans;
+    padding-top: 50px;
+    font-size: 30px;
+    color:#384855;
+    font-weight: bold;
+    padding-left: 50px;
     
 }
 
-.speaker-header{
-    font-weight: bold;
-    font-size:18px;
+.venueDescription{
+    font-family: open sans;
+    color:#384855;
+    font-size: 16px;
+    
+  
 }
 
+.venue-image{
+    display: flex;
+    flex-wrap: row; 
 
-
+}
