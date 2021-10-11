@@ -11,20 +11,15 @@ button{
 
 .speakerCardWrapper{
     padding: 20px; 
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .speakerCard{
     padding: 60px;
     font-size: 14px;
-    
-    
 }
 
-.speakerCard > *{
-    margin-bottom: 10px;
-    color: #384855;
-    
-}
 
 .img-thumbnail{
     border: none;
@@ -32,26 +27,28 @@ button{
 }
 
 .event-description{
-
-    text-align: center;
-    margin-left: 300px;
-    margin-right: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 20px;
     color:#8FA2B3;
 }
 
 .speaker{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 16px;
     font-weight: bold;
     padding-top: 15px;
-    margin-right: 180px;
-    margin-left: 180px;
     color:#3E4F5A;
 }
 
 .speaker-description{
     color:#8FA2B3;
-    text-align: left;
+    display: flex;
+    justify-content: start;
+    align-items: start;
    
     
 } 
@@ -92,12 +89,6 @@ button{
     Padding-bottom: 30px;
 }
 
-.map{
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 50px;
-
-}
 
 .venue-container{
     font-family: open sans;
@@ -105,20 +96,21 @@ button{
     font-size: 30px;
     color:#384855;
     font-weight: bold;
-    padding-left: 50px;
+    padding-left: 30px;
     
 }
 
 .venueDescription{
     font-family: open sans;
     color:#384855;
-    font-size: 16px;
+    font-size: 14px;
     
   
-}
+} 
 
 .venue-image{
-    display: flex;
-    flex-wrap: row; 
-
+     display: flex;
+    justify-content: end;
+    align-items: end;
+    padding-bottom: 10px;
 }
